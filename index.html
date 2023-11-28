@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
-    
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald&display=swap');
 
@@ -63,16 +63,17 @@ table{
 }
 th{
     font-family: 'Oswald';
-    border-bottom: #EEEEEE 1px solid;
-    border-right: #EEEEEE 1px solid;
+    border: #EEEEEE 2px solid;
+}
+.school{
+    text-align: left;
 }
 td{
     font-family: 'Open Sans';
-    border-right: #EEEEEE 1px solid;
-    border-bottom: #EEEEEE 1px solid;
+    border: #EEEEEE 2px solid;
 }
 #tl{
-    border-right: 0;
+    border: #EEEEEE 2px solid;
 }
 .data{
     white-space: pre;
@@ -83,11 +84,11 @@ td{
 </head>
     <body>
         <div class="navbar">    
-                <a href="#about" id="block"><button>About Me</button></a>
-                <a href="#person" id="block"><button>Personal Data</button></a>
-                <a href="#educ" id="block"><button>Educational Background</button></a>
-                <a href="#s&i" id="block"><button>Skills & Interests</button></a>
-                <a href="#work" id="block"><button>Work Experience</button></a>
+                <a href="#about"><button>About Me</button></a>
+                <a href="#person"><button>Personal Data</button></a>
+                <a href="#educ"><button>Educational Background</button></a>
+                <a href="#s&i"><button>Skills & Interests</button></a>
+                <a href="#work"><button>Work Experience</button></a>
             </div>
                 <h1>Zenon E. Valdez</h1>
             <div class="img">
@@ -115,7 +116,7 @@ td{
                 <p><b>Height: </b>5'8</p>
                 <p><b>Weight: </b>50 kgs</p>
                 <p><b>Citezenship: </b>Filipino</p>
-                <p><b>Dialect Spoken: </b>Cebuano, English and Tagalog</p>
+                <p><b>Languages Spoken: </b>Cebuano, English and Tagalog</p>
                 </div>  
 <br><hr>
 
@@ -130,19 +131,19 @@ td{
                         <th id="tl">Year</th>
                     </tr>
                     <tr>
-                        <th>Elementary</th>
+                        <th class="school">Elementary</th>
                         <td>Little Child Learning Center</td>
                         <td>Valencia City, Bukidnon</td>
                         <td id="tl">2010 - 2016</td>
                     </tr>
                     <tr>
-                        <th>High School</th>
+                        <th class="school">High School</th>
                         <td>Valencia Baptist Christian Academy</td>
                         <td>Valencia City, Bukidnon</td>
                         <td id="tl">2017 - 2020</td>
                     </tr>
                     <tr>
-                        <th>Senior High School</th>
+                        <th class="school">Senior High School</th>
                         <td>Central Mindanao University</td>
                         <td>Maramag, Bukidnon</td>
                         <td id="tl">2020 - 2022</td>
